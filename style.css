@@ -1,8 +1,8 @@
 body {
   background-color: white;
 }
-h3 {
-  color : blue;
+h2 {
+  color : gold;
 }
 p {
   color: black;
@@ -10,15 +10,15 @@ p {
 
 .container{
 	background-color: grey;
-    width: 800px;
+    width: 1000px;
     margin: auto;
     padding: 20px;
-    min-height: 1000px;
+    min-height: 800px;
 }
 .title{
 	float: left;
 	font-size: 30px;
-	color: black;
+	color: salmon;
 }
 .clear{
 	clear: both;
@@ -35,4 +35,15 @@ a.menu-item:hover{
 }
 .content{
 	font-size: 20px;
+	width: 600px;
+	float: left;
+}
+.subs{
+	float: right;
+	padding-top: 90px;
+	font-size: 20px;
+}
+.footer{
+	float: right;
+	padding-top: 30px;
 }

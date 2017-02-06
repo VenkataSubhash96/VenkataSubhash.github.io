@@ -1,15 +1,38 @@
 body {
-  background-color: grey;
+  background-color: white;
 }
-h1 {
+h3 {
   color : blue;
 }
 p {
-  color: red;
+  color: black;
 }
 
 .container{
-width: 800px;
-margin: auto;
-min-height: 50px;
+	background-color: grey;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    min-height: 1000px;
+}
+.title{
+	float: left;
+	font-size: 30px;
+	color: black;
+}
+.clear{
+	clear: both;
+}
+.menu-item{
+ 	color: black;
+ 	margin: 20px;
+}
+.menu{
+float: right;
+}
+a.menu-item:hover{
+	color: green;
+}
+.content{
+	font-size: 20px;
 }

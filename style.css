@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: black;
 }
 h2 {
   color : gold;
@@ -13,7 +13,7 @@ p {
     width: 1000px;
     margin: auto;
     padding: 20px;
-    min-height: 800px;
+    min-height: 800px;	
 }
 .title{
 	float: left;
